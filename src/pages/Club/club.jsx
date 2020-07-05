@@ -35,7 +35,7 @@ export default function Competitions({ match }) {
         var month = date.getMonth() + 1;
         var year = date.getFullYear();
         var age = year - nasc[0];
-        if (month < nasc[1] || (month === nasc[1] && day < nasc[2])){
+        if (month < nasc[1] || (month === parseInt(nasc[1]) && day < parseInt(nasc[2]))){
             age--;
         }
         return age;
