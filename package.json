@@ -15,7 +15,7 @@
     "react-scripts": "3.4.1"
   },
   "scripts": {
-    "install": "npm install axios react",
+    "install": "npm install axios react react-bootstrap bootstrap",
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
